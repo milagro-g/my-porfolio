@@ -1,0 +1,100 @@
+p {
+  color: black;
+  font-family: 'Poiret One', cursive;
+}
+body {
+  background-color: #84c4cd;
+  margin: 0;
+}
+h1 {
+     font-family: 'Playfair Display', serif;
+     font-weight: bold;
+     text-align: center;
+     font-size: 76px;
+
+}
+/* div {
+  width: 400px;
+  margin: 0 auto;
+} */
+
+h2 {
+color : white;
+font-family: 'Poiret One', cursive;
+text-align: center;
+}
+h3 {
+  font-family: 'Rufina', serif;
+  color: black;
+}
+h4 {
+  font-family: 'Rufina', serif;
+  color: black;
+}
+h5 {
+  font-family: 'Rufina', serif;
+  color: #000;
+}
+h6 {
+  font-family: 'Rufina', serif;
+  color: #000;
+}
+.milly-header {
+  height: 10vh;
+  width: 100vw;
+  color: white;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ---------------------------#navbar */
+#navbar {
+  height: 8vh;
+  background-color: #FFFFFF;
+  text-align: center;
+  font-family: 'Poiret One', cursive;
+}
+
+#navbar ul {
+  /* border: 1px solid lightblue; */
+  display: inline-block;
+  margin: 0;
+  margin-top: .5rem;
+  padding: 0;
+}
+
+#navbar ul li {
+  display: inline-block;
+}
+
+#navbar ul li a {
+  display: inline-block;
+  padding: .5rem 1rem;
+  text-decoration: none;
+}
+
+#navbar ul li a:hover {
+  background-color: lightblue;
+  color: papayawhip;
+}
+
+#jumbotron {
+width: 80rem;
+height: 50rem;
+}
+.mediacard {
+  color: .bg-secondary;
+}
+
+.container {
+  background-color: lightblue;
+}
+.milly {
+  height:45vh;
+  width: 33vw;
+}
+.plans {
+  height: 45vh;
+  width: 33vw;
+}
