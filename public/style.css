@@ -10,7 +10,7 @@ h1 {
      font-family: 'Playfair Display', serif;
      font-weight: bold;
      text-align: center;
-     font-size: 76px;
+     font-size: 111px;
 
 }
 /* div {
@@ -22,6 +22,7 @@ h2 {
 color : white;
 font-family: 'Poiret One', cursive;
 text-align: center;
+font-size: 50px
 }
 h3 {
   font-family: 'Rufina', serif;
@@ -77,15 +78,16 @@ h6 {
 #navbar ul li a:hover {
   background-color: lightblue;
   color: papayawhip;
+  transition-duration: 350ms;
+  transform: rotate(360deg);
+
 }
 
 #jumbotron {
 width: 80rem;
 height: 50rem;
 }
-.mediacard {
-  color: .bg-secondary;
-}
+
 
 .container {
   background-color: lightblue;
