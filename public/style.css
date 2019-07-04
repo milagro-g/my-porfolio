@@ -3,16 +3,19 @@ p {
   font-family: 'Poiret One', cursive;
 }
 body {
-  background-color: #84c4cd;
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
   margin: 0;
 }
-h1 {
+.my-name {
      font-family: 'Playfair Display', serif;
      font-weight: bold;
      text-align: center;
-     font-size: 111px;
+     font-size: 5rem;
+     white-space: nowrap;
+     /* position: fixed; */
 
 }
+
 /* div {
   width: 400px;
   margin: 0 auto;
@@ -28,7 +31,7 @@ h3 {
   font-family: 'Rufina', serif;
   color: black;
 }
-h4 {
+.mt-0 {
   font-family: 'Rufina', serif;
   color: black;
 }
@@ -41,13 +44,15 @@ h6 {
   color: #000;
 }
 .milly-header {
-  height: 10vh;
-  width: 100vw;
+  padding-top: 80px;
+  height: 50rem;
   color: white;
-  position: absolute;
-  margin-left: auto;
-  margin-right: auto;
+  background-image: url("lol.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
+
 
 /* ---------------------------#navbar */
 #navbar {
@@ -87,14 +92,24 @@ h6 {
 width: 80rem;
 height: 50rem;
 }
+.media-pic, .media-body {
+  /* comma applies to both */
+  text-align: center;
+  padding: 20px 40px;
+}
+.media-pic .media-body {
+  /* applies to inside */
+}
 
-
-.container {
-  background-color: lightblue;
+.media-pic>.media-body {
+  /* applies to directly child */
+}
+.media-pic.media-body {
+  applies to element with both classes
 }
 .milly {
   height:45vh;
-  width: 33vw;
+  border-radius: 50%;
 }
 .plans {
   height: 45vh;
