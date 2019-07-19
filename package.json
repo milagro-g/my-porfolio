@@ -3,17 +3,17 @@
   "version": "1.0.0",
   "description": "This is my first time running a server!",
   "main": "index.js",
-  "repository": "https://github.com/milagro-g/my-porfolio.git)",
+  "repository": "https://github.com/milagro-g/my-porfolio.git",
   "author": "Milagro Gonzalez",
   "license": "MIT",
   "private": false,
   "dependencies": {
     "express": "^4.17.1"
   },
-   "scripts": {
+  "scripts": {
     "start": "node index.js"
   },
   "engines": {
-     "node": ">=11.13.0"
+    "node": ">=11.13.0"
   }
 }
